@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { NavBar } from './components/NavBar'
 import { Home } from './components/Home'
 import { ThemeProvider } from '@emotion/react'
