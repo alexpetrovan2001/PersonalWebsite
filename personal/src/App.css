@@ -2,3 +2,40 @@
 .AppBar {
   margin: 0;
 }
+
+#home-page-main-container {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 25%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.rotating-image {
+  width: 20%;
+  height: 50%;
+}
+
+.rotating-image:hover {
+  animation-name: rotate; /* Use only the rotate animation */
+  animation-duration: 3s; /* Adjust the duration as needed */
+  animation-timing-function: linear; /* Adjust the timing function as needed */
+  animation-iteration-count: infinite; /* Run the animation once */
+}
+
+.flex-container{
+  display: flex;
+  margin-left: 35%;
+  margin-top: 10%;
+}
