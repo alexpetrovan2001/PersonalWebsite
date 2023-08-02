@@ -8,6 +8,7 @@ import { theme } from './components/Theme'
 import { Work } from './components/Work'
 import { Contact } from './components/Contact'
 import { Personal } from './components/Personal'
+import { Footer } from './components/CustomComponents/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
+        <Footer/>
       </React.Fragment>
     </ThemeProvider>
   )
