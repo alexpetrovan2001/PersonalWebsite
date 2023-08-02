@@ -1,4 +1,4 @@
-import { Container, Icon, Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import React from "react";
 
 interface CardProps {
