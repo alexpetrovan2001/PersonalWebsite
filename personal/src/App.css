@@ -2,3 +2,57 @@
 .AppBar {
   margin: 0;
 }
+
+#home-page-main-container {
+  height: 70vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.rotating-image {
+  width: 20%;
+  height: 50%;
+}
+
+.rotating-image:hover {
+  animation-name: rotate; /* Use only the rotate animation */
+  animation-duration: 3s; /* Adjust the duration as needed */
+  animation-timing-function: linear; /* Adjust the timing function as needed */
+  animation-iteration-count: infinite; /* Run the animation once */
+}
+
+.flex-container{
+  display: flex;
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.contact-outer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10%;
+
+}
+
+.contact-inner-container {
+  display: flex;
+  align-items: center;
+}
+
+.card-item {
+  margin: 20px;
+}
