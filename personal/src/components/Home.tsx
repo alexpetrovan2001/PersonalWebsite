@@ -15,7 +15,7 @@ export const Home = () => {
                         marginRight="2.8%"
                         position="relative"
                     >
-                        .Lost time
+                        Lost time
                     </Typography>
                     <RotatingImage />
                 </div>

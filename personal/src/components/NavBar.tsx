@@ -14,7 +14,7 @@ export const NavBar: React.FC = () => {
             textTransform:"none", 
             marginLeft: "1vw",
             width: "auto",
-            fontSize: "1vw",
+            fontSize: "1.2vw",
             fontWeight: "bold",
             whiteSpace: "nowrap",
             transition: "background-color 0.4s, color 0.4s ease-in-out",

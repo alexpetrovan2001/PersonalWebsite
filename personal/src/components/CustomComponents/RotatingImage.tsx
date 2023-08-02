@@ -1,6 +1,6 @@
 const RotatingImage: React.FC = () => {
     return (
-        <img src='../../public/hourglass.png' alt="Rotating hourglass" className="rotating-image"/>
+        <img src='/hourglass.png' alt="Rotating hourglass" className="rotating-image"/>
     )
 }
 
