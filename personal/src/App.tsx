@@ -4,11 +4,11 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { NavBar } from './components/NavBar'
 import { Home } from './components/Home'
 import { ThemeProvider } from '@emotion/react'
-import { theme } from './components/Theme'
+import { theme } from './components/CustomComponents/Theme'
 import { Work } from './components/Work'
 import { Contact } from './components/Contact'
 import { Personal } from './components/Personal'
-import { Footer } from './components/CustomComponents/Footer'
+import { Footer } from './components/CustomComponents/Footer/Footer'
 
 function App() {
   return (

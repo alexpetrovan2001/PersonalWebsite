@@ -1,4 +1,4 @@
-import React from "react";
+import './Footer.css'
 
 export const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <p>&copy; {currentYear} Petrovan Alex. All rights reserved. </p>
+                <p className="footer-text">&copy; {currentYear} Petrovan Alex. All rights reserved. </p>
             </div>
         </footer>
     )

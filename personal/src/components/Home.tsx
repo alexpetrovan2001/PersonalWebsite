@@ -16,7 +16,7 @@ export const Home = () => {
     return (
         <React.Fragment>
             <div id="home-page-main-container">
-                <div className="flex-container">
+                <div className="home-container">
                     <Typography
                         className={`fade-in ${animation ? "show" : ""}`}
                         variant="h2"
@@ -30,7 +30,6 @@ export const Home = () => {
                     <RotatingImage />
                 </div>
                 <div>
-
                     <Typography
                         className={`fade-in ${animation ? "show" : ""}`}
                         variant="h2"
@@ -39,9 +38,7 @@ export const Home = () => {
                         position="relative">
                         is never found again.
                     </Typography>
-
                 </div>
-
             </div>
         </React.Fragment>
     )

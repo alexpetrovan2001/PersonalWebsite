@@ -9,15 +9,6 @@ export const Contact: React.FC = () => {
     return (
         <React.Fragment>
             <div className="contact-outer-container">
-                {/* <Typography
-                    variant="h4"
-                    sx={{
-                        marginBottom: '2%',
-                        marginRight: 'auto',
-                    }}
-                >
-                    Would like to hear from you!
-                </Typography> */}
                 <div className="contact-inner-container">
                     <ContactCard 
                     title="github." 
@@ -38,13 +29,13 @@ export const Contact: React.FC = () => {
                     onClick={() => handleCardClick("https://www.linkedin.com/in/alex-petrovan-63aa70223")}
                     />
                 </div>
-                <Typography>
+                {/*
                 Various ways to contact you, such as an email address, contact form, or links to your social media profiles.
                 If you have a preferred method of communication, make it clear.
                 Your location or time zone, especially if you offer remote services.
                 Consider adding a professional-looking contact form that visitors can fill out.
                 If you're open to collaborations or job opportunities, mention your availability.
-                </Typography>
+                */}
             </div>
         </React.Fragment>
     )

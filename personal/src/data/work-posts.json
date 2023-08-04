@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Betty Bot #Python",
+        "description": "Betty Bot description"
+    },
+    {
+        "title": "MovieFindr #Python and Typescript",
+        "description": "MovieFindr description"
+    },
+    {
+        "title": "Playlist Manager #C++",
+        "description": "Playlist Manager description"
+    },
+    {
+        "title": "Social Media App #C++ and Qt",
+        "description": "Social Media App description"
+    },
+    {
+        "title": "Custom Data Structures #C",
+        "description": "Custom Data Structures description"
+    },
+    {
+        "title": "Building, Flashing and Testing Android AOSP #Linux and Android",
+        "description": "Building, Flashing and Testing Android AOSP description"
+    },
+    {
+        "title": "Android Demo App #Dart and Flutter",
+        "description": "Android Demo App description"
+    },
+    {
+        "title": "Remote Car Controlling App #Dart and Flutter",
+        "description": "Remote Car Controlling App description"
+    },
+    {
+        "title": "Maintaining MOM Tool #Python and Qt",
+        "description": "MOM Tool description"
+    }
+]
