@@ -4,6 +4,7 @@ import PostComponent from "./CustomComponents/PostComponent/PostComponent"
 export const Work: React.FC = () => {
     return (
         <React.Fragment>
+
             <PostComponent dataPath='/data/work-posts.json'/>
             {/* <ul>
                 <li>A portfolio showcasing your projects, work samples, and achievements.</li>
