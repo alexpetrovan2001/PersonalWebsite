@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
     useEffect(() => {
         async function getContactDetails(){
             try{
-                const response = await fetch("../../src/data/contact-cards.json");
+                const response = await fetch("/data/contact-cards.json");
                 const data = await response.json();
                 setContacts(data);
             } catch(error){
