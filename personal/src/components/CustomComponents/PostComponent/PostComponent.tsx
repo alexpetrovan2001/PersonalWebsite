@@ -19,7 +19,6 @@ const PostComponent: React.FC<PostProps> = ({ dataPath }) => {
                 console.error("Error loading posts: ", error);
             }
         }
-        
     getPosts(); 
     }, []
     )
@@ -29,7 +28,8 @@ const PostComponent: React.FC<PostProps> = ({ dataPath }) => {
                     {posts.map((post: Post, index: number) => (
                         <div className="post" key={index}>
                             <p className="post-title">{post.title}</p>
-                            <p className="post-description">{post.description}</p>
+                            <p className="post-description">{post.description1}</p>
+                            <p className="post-description">{post.description2}</p>
                         </div>
                     ))}
             </div>

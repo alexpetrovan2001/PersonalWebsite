@@ -1,11 +1,22 @@
-import { Typography } from "@mui/material"
 import React from "react"
-import PostComponent from "./CustomComponents/PostComponent/PostComponent"
+import "./Personal.css"
 
 export const Personal: React.FC = () => {
     return (
         <React.Fragment>
-            <PostComponent dataPath="../../src/data/personal-posts.json"/>
+            <div className="main-content">
+                <div className="introduction-wrapper">
+                    <div className="hello-component">
+                        <p>Hello, I'm</p>
+                    </div>
+                    <p className="name-component">Petrovan</p>
+                    <p className="name-component">Alex</p>
+                    <p className="position-component">Software Developer.</p>
+                </div>
+                <div className="about-wrapper">
+                    
+                </div>
+            </div>
             {/* <ul>
                 <li>A high-resolution photo of yourself to make your website more personable.</li>
                 <li>A short and engaging biography that highlights your background, interests, and expertise.</li>

@@ -1,0 +1,26 @@
+[
+    {
+      "title": "github.",
+      "image": "/github-mark.svg",
+      "description": "Coding projects and open-source contributions.",
+      "link": "https://github.com/alexpetrovan2001?tab=repositories"
+    },
+    {
+      "title": "instagram.",
+      "image": "/instagram-icon.svg",
+      "description": "A piece of myself.",
+      "link": "https://www.instagram.com/ale.xpetrovan/"
+    },
+    {
+      "title": "linkedin.",
+      "image": "/linkedin-icon.svg",
+      "description": "Aspiring Software Developer. Seeking opportunities.",
+      "link": "https://www.linkedin.com/in/alex-petrovan-63aa70223"
+    },
+    {
+        "title": "gmail.",
+        "image": "/gmail-icon.svg",
+        "description": "Feel free to reach out via email.",
+        "link": "mailto:alex.petrovan@gmail.com"
+      }
+  ]
