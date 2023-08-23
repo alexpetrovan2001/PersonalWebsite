@@ -4,10 +4,11 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import { NavBar } from './components/NavBar'
 import { Home } from './components/Home'
 import { ThemeProvider } from '@emotion/react'
-import { theme } from './components/Theme'
+import { theme } from './components/CustomComponents/Theme'
 import { Work } from './components/Work'
 import { Contact } from './components/Contact'
 import { Personal } from './components/Personal'
+import { Footer } from './components/CustomComponents/Footer/Footer'
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />}/>
             <Route path="/me" element={<Personal />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </Router>
+        <Footer/>
       </React.Fragment>
     </ThemeProvider>
   )
