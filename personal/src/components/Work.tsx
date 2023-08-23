@@ -1,25 +1,7 @@
-import { Typography } from "@mui/material"
-import React, { useEffect } from "react"
-import { Post } from "../models/Post"
+import React from "react"
 import PostComponent from "./CustomComponents/PostComponent/PostComponent"
 
 export const Work: React.FC = () => {
-    const [posts, setPosts] = React.useState<Post[]>([])
-
-    useEffect(() => {
-        async function fetchPosts() {
-            try{
-                const response = await fetch('../../src/data/work-posts.json');
-                const data = await response.json();
-                setPosts(data);
-            } catch (error){
-                console.error("Error loading posts: ", error);
-            }
-        }
-
-        fetchPosts();
-    }, [])
-
     return (
         <React.Fragment>
             <PostComponent dataPath="../../src/data/work-posts.json"/>
