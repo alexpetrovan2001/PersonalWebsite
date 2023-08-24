@@ -81,3 +81,8 @@
   flex-direction: row;
 }
 
+.work-main-container {
+  background-color: rgb(62, 62, 62);
+  border-radius: 20px;
+  padding: 0% 5%;
+}
