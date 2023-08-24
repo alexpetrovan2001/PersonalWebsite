@@ -24,7 +24,8 @@ const Card: React.FC<CardProps> = ({ title, image, description, onClick}) => {
             transition: 'transform 0.2s ease-in-out',
             '&:hover': {
               transform: 'scale(1.05)',
-              boxShadow: '0 8px 12px rgba(0, 0, 0, 0.4)',}
+              boxShadow: '0 8px 12px rgba(0, 0, 0, 0.4)',
+            }
         }}
         onClick={onClick}
       >
