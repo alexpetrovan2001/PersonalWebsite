@@ -1,57 +1,44 @@
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 60%;
-    height: 1200px;
-    margin: 5% auto;
-    border-radius: 4%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-    background-image: url("/PersonalBackgroundImage.png");
-    background-size: cover; /* Scale the image to cover the container */
-    transition: opacity 1s ease;
-}
-
-.introduction-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin: 8% auto auto 8%;
-    opacity: 0; /* Start with opacity 0 */
-    transform: translateY(20px); /* Start with slight vertical translation */
-    animation: fadeInUp 2s ease forwards; /* Apply animation */
-  }
-  
-  /* Define the fade-in and slide-up animation */
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-.hello-component {
-    background-color: black;
+.personal-main-container {
+    background-color: rgb(62, 62, 62);
     color: white;
+    border-radius: 20px;
     padding: 5%;
-    margin: 5% auto 5% 0;
-    font-size: 1.3rem;
 }
 
-.name-component {
-    color: black;
-    font-size: 3rem;
-    font-weight: 1000;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin: 5% 0;
+.personal-introduction-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
 }
 
-.position-component {
-    color: black;
-    font-size: 1.3rem;
-    margin: 5% 0;
+.personal-introduction-container > * {
+    margin-bottom: 4%;
 }
 
-  
-  
+.personal-description-container > * {
+    margin-bottom: 4%;
+}
+
+.small-personal-font {
+    font-size: 125%;
+    font-weight: 300;
+    
+}
+
+.medium-personal-font {
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.big-personal-font {
+    font-size: 300%;
+    font-weight: 800;
+}
+
+.gold-font {
+    color: #c99e1a;
+}
+
+.gray-font {
+    color: rgb(191, 191, 191);
+}

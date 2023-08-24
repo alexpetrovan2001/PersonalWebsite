@@ -67,4 +67,17 @@
 
 /* Work and Personal Components */
 
+.flex-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  margin: 6% auto;
+}
+
+.flex-row-container {
+  display: flex;
+  flex-direction: row;
+}
 
