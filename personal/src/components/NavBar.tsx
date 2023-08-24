@@ -1,32 +1,9 @@
-import { AppBar, Box, Button, Toolbar} from "@mui/material"
+import { AppBar, Box, Toolbar} from "@mui/material"
 import React from "react";
-import { Link } from "react-router-dom";
+import { MyButton } from "./CustomComponents/CustomButton";
 
 export const NavBar: React.FC = () => {
-    const MyButton: React.FC<{ label: string, to: string }> = ({ label, to }) => {
-        return (
-          <Button 
-          variant="text" 
-          color="primary" 
-          component={Link}
-          to={to}
-          sx={{
-            textTransform:"none", 
-            marginLeft: "1vw",
-            width: "auto",
-            fontSize: "1.2vw",
-            fontWeight: "bold",
-            whiteSpace: "nowrap",
-            transition: "background-color 0.4s, color 0.4s ease-in-out",
-            "&:hover": {
-                backgroundColor: "#c99e1a",
-                color: "black",
-            },
-            }}>
-            {label}
-          </Button>
-        );
-      };
+
 
     return (
         <Box>
@@ -36,7 +13,7 @@ export const NavBar: React.FC = () => {
                     <div style={{display: "flex"}}>
                     <MyButton label=".Work" to="/work"/>
                     <MyButton label=".Me" to="/me" />
-                    <MyButton label=".Get In Touch" to="contact" />
+                    <MyButton label=".Get In Touch" to="/contact" />
                     </div>
                 </Toolbar>
             </AppBar>
