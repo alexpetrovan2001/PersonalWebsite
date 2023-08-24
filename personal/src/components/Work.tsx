@@ -7,13 +7,6 @@ export const Work: React.FC = () => {
             <div className="flex-container-column work-main-container">
                 <PostComponent dataPath='/data/work-posts.json'/>
             </div>
-            {/* <ul>
-                <li>A portfolio showcasing your projects, work samples, and achievements.</li>
-                <li>Each project should include a project title, description, images or videos, and the role you played.</li>
-                <li>Technologies or tools you used for each project.</li>
-                <li>Testimonials or endorsements from clients, colleagues, or supervisors if applicable.</li>
-                <li>A clear organization to make it easy for visitors to browse your work.</li>
-            </ul> */}
         </React.Fragment>
     )
 }
