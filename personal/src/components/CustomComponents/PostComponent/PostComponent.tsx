@@ -24,7 +24,7 @@ const PostComponent: React.FC<PostProps> = ({ dataPath }) => {
     )
     
     return (
-            <div className="flex-container-column">
+            <div>
                     {posts.map((post: Post, index: number) => (
                         <div className="post" key={index}>
                             <p className="post-title">{post.title}</p>
