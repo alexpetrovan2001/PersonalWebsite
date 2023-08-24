@@ -1,6 +1,5 @@
 import React from "react"
 import "./Personal.css"
-import { Button } from "@mui/material"
 import { MyButton } from "./CustomComponents/CustomButton"
 
 export const Personal: React.FC = () => (
