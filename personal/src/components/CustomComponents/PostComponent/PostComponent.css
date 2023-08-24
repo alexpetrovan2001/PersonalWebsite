@@ -1,19 +1,10 @@
-.flex-container-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  width: 60%;
-  margin: 5% auto;
-}
-
 .post {
     display: flex;
     width: auto;
     max-width: 70%;
     flex-direction: column;
     padding: 2%;
-    background-color: #f5f5f5; /* Set your preferred background color */
+    background-color: rgb(147, 147, 147); /* Set your preferred background color */
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: opacity 1s ease, background-color 0.3s ease, transform 0.2s, box-shadow 0.2s;
@@ -24,6 +15,7 @@
       transform: translateY(-5px);
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
       background-color: #c99e1a;
+      color: black;
     }
   }
   
