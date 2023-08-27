@@ -5,40 +5,6 @@
     padding: 5%;
 }
 
-.personal-introduction-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 4%;
-}
-
-.personal-introduction-container > * {
-    margin-bottom: 4%;
-}
-
 .personal-description-container > * {
     margin-bottom: 4%;
-}
-
-.small-personal-font {
-    font-size: 125%;
-    font-weight: 300;
-    
-}
-
-.medium-personal-font {
-    font-size: 150%;
-    font-weight: 400;
-}
-
-.big-personal-font {
-    font-size: 300%;
-    font-weight: 800;
-}
-
-.gold-font {
-    color: #c99e1a;
-}
-
-.gray-font {
-    color: rgb(238, 238, 238);
 }
