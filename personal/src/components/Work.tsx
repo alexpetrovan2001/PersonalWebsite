@@ -14,7 +14,7 @@ export const Work: React.FC = () => {
                     </div>
                     <p className="medium-font white-font">of my skills and expertise.</p>
                 </div>
-                <PostComponent dataPath='/data/work-posts.json'/>
+                <PostComponent/>
             </div>
         </React.Fragment>
     )
