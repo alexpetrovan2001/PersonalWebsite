@@ -46,7 +46,7 @@ const PostComponent: React.FC = () => {
     const iconButtonStyles = {
         backgroundColor: "white", 
         color: "black", 
-        margin: "auto", 
+        margin: "auto 1%",
         "&:hover": {backgroundColor: "#c99e1a"}
     };
     
@@ -54,10 +54,10 @@ const PostComponent: React.FC = () => {
         <div>
         {loading && <CircularProgress />}
         {!loading && posts.length > 0 && (
-            <div className="flex-row-container">
+            <div className="flex-row-container post">
                 <IconButton sx={iconButtonStyles} 
                             onClick={handlePrevClick}><ArrowBack/></IconButton>
-                    <div className="post">
+                    <div>
                         <p className="post-title">{posts[currentPostIndex].title}</p>
                         <p className="post-description">{posts[currentPostIndex].description1}</p>
                         <p className="post-description">{posts[currentPostIndex].description2}</p>
