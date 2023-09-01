@@ -1,19 +1,21 @@
 import React from "react"
 import PostComponent from "./CustomComponents/PostComponent/PostComponent"
+import "./Work.css"
 
 export const Work: React.FC = () => {
     return (
         <React.Fragment>
             <div className="flex-container-column work-main-container">
-                <PostComponent dataPath='/data/work-posts.json'/>
+                <div className="introduction-container">
+                    <p className="medium-font white-font">Welcome to my Projects World</p>
+                    <div className="flex-row-container">
+                        <p className="big-font white-font">Explore the&nbsp;</p>
+                        <p className="big-font gold-font">Evolution</p>
+                    </div>
+                    <p className="medium-font white-font">of my skills and expertise.</p>
+                </div>
+                <PostComponent/>
             </div>
-            {/* <ul>
-                <li>A portfolio showcasing your projects, work samples, and achievements.</li>
-                <li>Each project should include a project title, description, images or videos, and the role you played.</li>
-                <li>Technologies or tools you used for each project.</li>
-                <li>Testimonials or endorsements from clients, colleagues, or supervisors if applicable.</li>
-                <li>A clear organization to make it easy for visitors to browse your work.</li>
-            </ul> */}
         </React.Fragment>
     )
 }

@@ -2,7 +2,12 @@
     {
         "title": "Betty Bot #Python",
         "description1": "Betty Bot is an Open Source arbitrage betting bot. It was developed in Python using Selenium to scrape the data from the betting platforms and we were using a mathematical formula to calculate the outcome.",
-        "description2": "There was no GUI designed for the application. It was working good overall but we had to stop it due to the lack of money and pacience that we didn't have at that time. Hope we'll get back to it !"
+        "description2": "There was no GUI designed for the application. It was working good overall but we had to stop it due to the lack of money and pacience that we didn't have at that time. Hope we'll get back to it at some point !"
+    },
+    {
+        "title": "LeetCode Problems #Python",
+        "description1": "I've been solving LeetCode problems for a while now. Started with the easy ones and I'm currently solving the medium ones. I'm trying to solve at least one problem a day, but sometimes I don't have enough time to do it.",
+        "description2": "Most of the problems are solved in Pytho, trying to use different approaches to solve them. I'm also trying to do this in the most efficient way possible, so I'm always looking for the best solution. Find them on my GitHub profile."
     },
     {
         "title": "LeetCode Problems #Python",
@@ -11,37 +16,32 @@
     },
     {
         "title": "MovieFindr #Python and Typescript",
-        "description1": "MovieFindr is a school project that I've build over the course of a semester. It was a Full-Stack web app. The backend was developed in Python using Django and using a PostgreSQL database. The frontend was developed in Typescript using React + Vite. It was also deployed during development on AWS, but it is not available anymore.",
-        "description2": "It was designed as a place where users could join and search for different movies based on their rating, favorite actors or productions. It is by far the most complex project that I've worked on and I'm really proud of it. It has a custom authentication system, a custom admin panel and a lot of other features."
+        "description1": "Full-Stack web app built over the course of a semester (School Project). Backend: Django + PostgreSQL. Frontend: ReactTS + Vite. It was also deployed during development on AWS, but it is not available anymore.",
+        "description2": "It is by far the most complex project that I've worked on and I'm really proud of it. It has a custom authentication system, a custom admin panel and a lot of other features such as pagination, filters, searches and many more."
     },
     {
         "title": "Maintaining MOM Tool #Python and Qt",
-        "description1": "This project was the main focus of my internship program. I had to maintain and improve an internal tool used by the company that hired us. The tool has been developed in Python using the Qt framework before I joined the team, so I had to get used to the codebase, being able to understand it and to improve it later on.",
-        "description2": "In this project, different skills have been improved, such as: teamwork, communication, problem solving, working under time pressure and the ability to deliver a product in a short amount of time. Besides maintaining the tool, I also had to maintain some internal documentation and Jira tickets."
+        "description1": "This project was the main focus of my internship program. The tool has been developed with Python and Qt framework before I joined the team, so I had to get used to the codebase and to further maintain it.",
+        "description2": "In this project, different skills have been improved, such as: teamwork, communication, problem solving, working under time pressure, talking directly to the client and the ability to deliver a product in a short amount of time"
     },
     {
         "title": "Tutorial Manager #C++",
-        "description1": "Tutorial Manager is a school project that I've build over the course of a semester. It was a CLI app. The backend was developed in C++ using a custom data structure that I've designed. ",
-        "description2": "It had a custom authentication system and a custom admin panel and it was a good starting point in my development path."
-    },
-    {
-        "title": "Custom Data Structures #C++",
-        "description1": "Designed various custom data structures in C++ such as: Sorted Set/Bag/Map on a random given relation or Single Linked List both over a dynamic array and a simple array.",
-        "description2": "Some tests were also written for them, both simple (few hundreds of operations) and complex (thousands of operations)."
+        "description1": "Tutorial Manager is a school project that I've build over the course of a semester. It was a CLI app with different access modes. The backend was developed in C++ using a custom data structure that I've designed.",
+        "description2": "It had a custom authentication system and a custom admin panel and it was a good starting point in my development path. This was one of my very first projects that I've worked on for more than a week."
     },
     {
         "title": "Building, Flashing and Testing Android AOSP #Linux and Android",
-        "description1": "In the first part of my internship program, I was mainly working with the AOSP (Android Open Source Project). For this, I had to setup a Raspberry Pi 4 to be able to simulate the Android Auto experience from a real car. After that I had to flash an AAOS distribution on the same board.",
-        "description2": "Being successful in the previous phase, a new automotive-specific development board was given to me. I had to flash the same AAOS distribution on it and to test it, to make sure that it is working as expected. I also had to work with ADB to check different conneections (camera or USB connections) and to test some custom application in terms of resource consumption."
+        "description1": "This project was part of my reasearch from my internship program. We had to simulate an Android Auto environment on a Raspberry Pi 4B, and later we would try the same thing with Android Automotive OS.",
+        "description2": "After some time, we replaced the RPi with a new automotive-specific development board. My tasks included flashing different AAOS distributions and testing them, working with ADB and evaluating the resource consumption."
     },
     {
         "title": "Android Demo App #Dart and Flutter",
-        "description1": "Together with some of my colleagues we have build a demo application for the Android Auto platform. It was a simple app that we had to start with. We implemented a simple UI with a few pages accessible from a side menu.",
-        "description2": "Some of the features that the app had were: home page with current time, weather and location, network speed test, task manager, camera streaming and recording, etc."
+        "description1": "Together with some of my colleagues we have build a demo application for the Android Automotive platform. It was a simple app that we had to start with. We implemented a simple UI with a few pages accessible from a side menu.",
+        "description2": "Some of the features that we had to include into the app were: displaying the current time, weather and location on the home page, network speed test, a task manager page, camera streaming and recording with different settings, etc."
     },
     {
         "title": "Remote Car Controlling App #Dart and Flutter",
-        "description1": "After getting used to working with Flutter SDK and Dart, we were given the task of creating a mock mobile application which would be used to control a remote car. The API for controlling the car has not been developed, so we only had a working UI prototype of the app.",
+        "description1": "After getting used to Flutter SDK and Dart, we started creating a mobile application which should control a car remotely. The API for controlling the car has not been developed, so we only had a working UI prototype of the app.",
         "description2": "It was meant to let the user control the horn or lights of the car, locl/unlock the car, modify the internal temperature, etc. It was a good experience for me to implement a given design and to improve my teamwork skills."
     }
 ]
