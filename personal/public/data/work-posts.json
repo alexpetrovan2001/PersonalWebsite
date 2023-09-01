@@ -10,6 +10,11 @@
         "description2": "Most of the problems are solved in Pytho, trying to use different approaches to solve them. I'm also trying to do this in the most efficient way possible, so I'm always looking for the best solution. Find them on my GitHub profile."
     },
     {
+        "title": "LeetCode Problems #Python",
+        "description1": "I've been solving LeetCode problems for a while now. I've started with the easy ones and I'm currently solving the medium ones. I'm trying to solve at least one problem per day, but sometimes I'm not able to do that due to my busy schedule.",
+        "description2": "Python is the language that I use for the most of the problems and I'm trying to use different approaches to solve them. I'm also trying to solve them in the most efficient way possible, so I'm always looking for the best solution. If you want to take a look, you can find them on my GitHub profile."
+    },
+    {
         "title": "MovieFindr #Python and Typescript",
         "description1": "Full-Stack web app built over the course of a semester (School Project). Backend: Django + PostgreSQL. Frontend: ReactTS + Vite. It was also deployed during development on AWS, but it is not available anymore.",
         "description2": "It is by far the most complex project that I've worked on and I'm really proud of it. It has a custom authentication system, a custom admin panel and a lot of other features such as pagination, filters, searches and many more."
